@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(130, 181, 231);
+    padding: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    height: 100vh;
+    text-align: center;
+    font-size: 16pt;
+    color: rgb(90, 89, 87);
+    min-height: 450px;
+}
+
+h1 {
+    color: rgb(90, 89, 87);
+    text-align: center;
+    font-size: 30pt;
+}
+
+img {
+    display: block;
+    position: relative;
+    margin-left: 62%;
+    top: -74px;
+}
+
+input {
+    border-radius: 5px;
+    outline: none;
+    display: flex;
+    margin-left: 34.7rem;
+    border-color: darkkhaki;
+}
+#botao {
+    border-radius: 5px;
+    background-color: rgb(226, 223, 175);
+    color: rgb(90, 89, 87);
+    margin-left: 48%;
+    margin-top: 10px;
+    width: 65px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+#botao:hover {
+    opacity: 0.5;
+}
