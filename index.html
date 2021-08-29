@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Configuração de caractere -->
+        <meta charset="UTF-8">
+        <!-- Configuração de entrada e porta do navegador -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Configuração do navegador -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Titulo da página -->
+        <title>Sistema de notas</title>
+        <!-- Links  -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>NOTAS ONLINE</h1>
+        <img src="./img/icon.png" alt="icone">
+        <div class="container">
+            Digite sua primeira nota: <input type="number" name="nt1" id="nt1" />
+            Digite sua segunda nota: <input type="number" name="nt2" id="nt2" />
+            <input type="button" id="botao" value="Calcule" onclick="calcular()" />
+            <div id="resultado"></div>
+        </div>
+        <script src="apps.js"></script>
+    </body>
+</html>
